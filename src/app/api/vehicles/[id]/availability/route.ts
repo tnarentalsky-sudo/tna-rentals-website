@@ -43,8 +43,8 @@ async function checkAvailabilityWithBooqable(
     available: true,
     quantity: 1,
     pricing: {
-      dailyRate: 54.99,
-      totalCost: calculateTotalCost(startDate, endDate, 54.99),
+      dailyRate: 49.99,
+      totalCost: calculateTotalCost(startDate, endDate, 49.99),
       currency: 'USD'
     },
     restrictions: {
@@ -123,8 +123,8 @@ async function checkAvailabilityWithBooqable(
         available: attributes.available || false,
         quantity: attributes.quantity || 0,
         pricing: {
-          dailyRate: attributes.price_per_day ? attributes.price_per_day / 100 : 54.99,
-          totalCost: attributes.total_price ? attributes.total_price / 100 : calculateTotalCost(startDate, endDate, 54.99),
+          dailyRate: attributes.price_per_day ? attributes.price_per_day / 100 : 49.99,
+          totalCost: attributes.total_price ? attributes.total_price / 100 : calculateTotalCost(startDate, endDate, 49.99),
           currency: attributes.currency || 'USD',
           discounts: attributes.discounts?.map((discount: any) => ({
             name: discount.name,

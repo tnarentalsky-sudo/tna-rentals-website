@@ -125,7 +125,7 @@ export function HQFleetShowcase() {
       category: 'SUV',
       seats: 5,
       features: ['34 MPG', 'Backup Camera', 'Bluetooth', 'USB Ports'],
-      priceFrom: 54.99,
+      priceFrom: 49.99,
       image: '/images/cars/2013 Chevy Equinox.jpg'
     },
     {
@@ -134,7 +134,7 @@ export function HQFleetShowcase() {
       category: 'Sedan',
       seats: 5,
       features: ['Bluetooth', 'USB Charging', 'Fuel Efficient', 'Comfortable'],
-      priceFrom: 54.99,
+      priceFrom: 49.99,
       image: '/images/cars/2015 Kia Optima.jpg'
     },
     {
@@ -143,7 +143,7 @@ export function HQFleetShowcase() {
       category: 'Sedan',
       seats: 5,
       features: ['Comfort', 'Premium Interior', 'Smooth Ride', 'Spacious'],
-      priceFrom: 54.99,
+      priceFrom: 49.99,
       image: '/images/cars/2014 Buick Regal.jpg'
     }
   ];

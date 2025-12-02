@@ -19,7 +19,7 @@ export const FLEET: Car[] = [
   { 
     id: "2013-chevy-equinox", 
     name: "Chevy Equinox", 
-    priceFrom: 54.99, 
+    priceFrom: 49.99, 
     image: "/images/cars/2013 Chevy Equinox.jpg", 
     features: ["SUV", "5 seats", "34 MPG"],
     available: true,
@@ -29,7 +29,7 @@ export const FLEET: Car[] = [
   { 
     id: "2015-kia-optima", 
     name: "Kia Optima", 
-    priceFrom: 54.99, 
+    priceFrom: 49.99, 
     image: "/images/cars/2015 Kia Optima.jpg", 
     features: ["Sedan", "5 seats", "Bluetooth"],
     available: true,
@@ -39,7 +39,7 @@ export const FLEET: Car[] = [
   { 
     id: "2014-buick-regal", 
     name: "Buick Regal", 
-    priceFrom: 54.99, 
+    priceFrom: 49.99, 
     image: "/images/cars/2014 Buick Regal.jpg", 
     features: ["Sedan", "5 seats", "Comfort"],
     available: true,

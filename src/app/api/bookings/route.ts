@@ -210,7 +210,7 @@ function calculateEstimatedCost(startDate: string, endDate: string): number {
   const start = new Date(startDate);
   const end = new Date(endDate);
   const days = Math.max(1, Math.ceil((end.getTime() - start.getTime()) / (1000 * 60 * 60 * 24)));
-  return days * 54.99; // Base rate of $54.99/day
+  return days * 49.99; // Base rate of $49.99/day
 }
 
 function validateBookingRequest(data: BookingRequest): string | null {

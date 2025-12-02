@@ -10,12 +10,15 @@ export default function Header() {
     <header className="bg-white shadow-sm fixed w-full top-0 z-50">
       <nav className="container mx-auto px-4 py-3 sm:py-4 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="flex items-center">
+        <Link href="/" className="flex items-center gap-3 sm:gap-4">
           <img 
             src="/logo.jpg" 
             alt="TNA Rentals LLC Logo" 
             className="h-10 sm:h-12 w-auto"
           />
+          <p className="text-sm sm:text-lg md:text-xl text-gray-700 font-semibold">
+            TRUSTED N AFFORDABLE RENTALS, LLC
+          </p>
         </Link>
 
         {/* Desktop Navigation */}
